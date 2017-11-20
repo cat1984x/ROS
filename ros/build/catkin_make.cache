@@ -1,0 +1,2 @@
+chen_package
+-DCATKIN_DEVEL_PREFIX=/home/chenyushen/ros/devel -DCMAKE_INSTALL_PREFIX=/home/chenyushen/ros/install -G Unix Makefiles

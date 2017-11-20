@@ -1,0 +1,8 @@
+prefix=/home/chenyushen/ros/install
+
+Name: chen_package
+Description: Description of chen_package
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chenyushen/ros/install/lib 
+Requires: 
