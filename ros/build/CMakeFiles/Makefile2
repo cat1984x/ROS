@@ -291,6 +291,7 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 # Convenience name for "all" pass in the directory.
 chen_package/all: chen_package/CMakeFiles/hello.dir/all
 chen_package/all: chen_package/CMakeFiles/pubvel.dir/all
+chen_package/all: chen_package/CMakeFiles/reverse_cmd_vel.dir/all
 chen_package/all: chen_package/CMakeFiles/subpose.dir/all
 .PHONY : chen_package/all
 
@@ -300,6 +301,7 @@ chen_package/clean: chen_package/CMakeFiles/geometry_msgs_generate_messages_lisp
 chen_package/clean: chen_package/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 chen_package/clean: chen_package/CMakeFiles/hello.dir/clean
 chen_package/clean: chen_package/CMakeFiles/pubvel.dir/clean
+chen_package/clean: chen_package/CMakeFiles/reverse_cmd_vel.dir/clean
 chen_package/clean: chen_package/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 chen_package/clean: chen_package/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 chen_package/clean: chen_package/CMakeFiles/roscpp_generate_messages_py.dir/clean
@@ -483,6 +485,41 @@ chen_package/CMakeFiles/pubvel.dir/clean:
 
 # clean rule for target.
 clean: chen_package/CMakeFiles/pubvel.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target chen_package/CMakeFiles/reverse_cmd_vel.dir
+
+# All Build rule for target.
+chen_package/CMakeFiles/reverse_cmd_vel.dir/all:
+	$(MAKE) -f chen_package/CMakeFiles/reverse_cmd_vel.dir/build.make chen_package/CMakeFiles/reverse_cmd_vel.dir/depend
+	$(MAKE) -f chen_package/CMakeFiles/reverse_cmd_vel.dir/build.make chen_package/CMakeFiles/reverse_cmd_vel.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chenyushen/ros/build/CMakeFiles  5
+	@echo "Built target reverse_cmd_vel"
+.PHONY : chen_package/CMakeFiles/reverse_cmd_vel.dir/all
+
+# Include target in all.
+all: chen_package/CMakeFiles/reverse_cmd_vel.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+chen_package/CMakeFiles/reverse_cmd_vel.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chenyushen/ros/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 chen_package/CMakeFiles/reverse_cmd_vel.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chenyushen/ros/build/CMakeFiles 0
+.PHONY : chen_package/CMakeFiles/reverse_cmd_vel.dir/rule
+
+# Convenience name for target.
+reverse_cmd_vel: chen_package/CMakeFiles/reverse_cmd_vel.dir/rule
+.PHONY : reverse_cmd_vel
+
+# clean rule for target.
+chen_package/CMakeFiles/reverse_cmd_vel.dir/clean:
+	$(MAKE) -f chen_package/CMakeFiles/reverse_cmd_vel.dir/build.make chen_package/CMakeFiles/reverse_cmd_vel.dir/clean
+.PHONY : chen_package/CMakeFiles/reverse_cmd_vel.dir/clean
+
+# clean rule for target.
+clean: chen_package/CMakeFiles/reverse_cmd_vel.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -864,7 +901,7 @@ clean: chen_package/CMakeFiles/std_srvs_generate_messages_py.dir/clean
 chen_package/CMakeFiles/subpose.dir/all:
 	$(MAKE) -f chen_package/CMakeFiles/subpose.dir/build.make chen_package/CMakeFiles/subpose.dir/depend
 	$(MAKE) -f chen_package/CMakeFiles/subpose.dir/build.make chen_package/CMakeFiles/subpose.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chenyushen/ros/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chenyushen/ros/build/CMakeFiles  6
 	@echo "Built target subpose"
 .PHONY : chen_package/CMakeFiles/subpose.dir/all
 

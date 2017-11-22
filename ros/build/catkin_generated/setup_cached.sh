@@ -7,9 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/chenyushen/ros/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/chenyushen/ros/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/chenyushen/ros/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/chenyushen/ros/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/chenyushen/ros/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/chenyushen/ros/src:$ROS_PACKAGE_PATH"

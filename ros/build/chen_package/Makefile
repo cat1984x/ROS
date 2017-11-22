@@ -220,6 +220,20 @@ pubvel/fast:
 .PHONY : pubvel/fast
 
 # Convenience name for target.
+chen_package/CMakeFiles/reverse_cmd_vel.dir/rule:
+	cd /home/chenyushen/ros/build && $(MAKE) -f CMakeFiles/Makefile2 chen_package/CMakeFiles/reverse_cmd_vel.dir/rule
+.PHONY : chen_package/CMakeFiles/reverse_cmd_vel.dir/rule
+
+# Convenience name for target.
+reverse_cmd_vel: chen_package/CMakeFiles/reverse_cmd_vel.dir/rule
+.PHONY : reverse_cmd_vel
+
+# fast build rule for target.
+reverse_cmd_vel/fast:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/reverse_cmd_vel.dir/build.make chen_package/CMakeFiles/reverse_cmd_vel.dir/build
+.PHONY : reverse_cmd_vel/fast
+
+# Convenience name for target.
 chen_package/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
 	cd /home/chenyushen/ros/build && $(MAKE) -f CMakeFiles/Makefile2 chen_package/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : chen_package/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
@@ -491,6 +505,30 @@ pubvel.cpp.s:
 	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/pubvel.dir/build.make chen_package/CMakeFiles/pubvel.dir/pubvel.cpp.s
 .PHONY : pubvel.cpp.s
 
+reverse_cmd_vel.o: reverse_cmd_vel.cpp.o
+.PHONY : reverse_cmd_vel.o
+
+# target to build an object file
+reverse_cmd_vel.cpp.o:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/reverse_cmd_vel.dir/build.make chen_package/CMakeFiles/reverse_cmd_vel.dir/reverse_cmd_vel.cpp.o
+.PHONY : reverse_cmd_vel.cpp.o
+
+reverse_cmd_vel.i: reverse_cmd_vel.cpp.i
+.PHONY : reverse_cmd_vel.i
+
+# target to preprocess a source file
+reverse_cmd_vel.cpp.i:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/reverse_cmd_vel.dir/build.make chen_package/CMakeFiles/reverse_cmd_vel.dir/reverse_cmd_vel.cpp.i
+.PHONY : reverse_cmd_vel.cpp.i
+
+reverse_cmd_vel.s: reverse_cmd_vel.cpp.s
+.PHONY : reverse_cmd_vel.s
+
+# target to generate assembly for a file
+reverse_cmd_vel.cpp.s:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/reverse_cmd_vel.dir/build.make chen_package/CMakeFiles/reverse_cmd_vel.dir/reverse_cmd_vel.cpp.s
+.PHONY : reverse_cmd_vel.cpp.s
+
 subpose.o: subpose.cpp.o
 .PHONY : subpose.o
 
@@ -532,6 +570,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... pubvel"
 	@echo "... rebuild_cache"
+	@echo "... reverse_cmd_vel"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_py"
@@ -555,6 +594,9 @@ help:
 	@echo "... pubvel.o"
 	@echo "... pubvel.i"
 	@echo "... pubvel.s"
+	@echo "... reverse_cmd_vel.o"
+	@echo "... reverse_cmd_vel.i"
+	@echo "... reverse_cmd_vel.s"
 	@echo "... subpose.o"
 	@echo "... subpose.i"
 	@echo "... subpose.s"

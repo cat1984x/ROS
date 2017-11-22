@@ -134,6 +134,7 @@ include_directories(
 add_executable(hello hello.cpp)
 add_executable(pubvel pubvel.cpp)
 add_executable(subpose subpose.cpp)
+add_executable(reverse_cmd_vel reverse_cmd_vel.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -152,6 +153,7 @@ add_executable(subpose subpose.cpp)
 target_link_libraries(hello ${catkin_LIBRARIES})
 target_link_libraries(pubvel ${catkin_LIBRARIES})
 target_link_libraries(subpose ${catkin_LIBRARIES})
+target_link_libraries(reverse_cmd_vel ${catkin_LIBRARIES})
 
 
 #############

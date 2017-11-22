@@ -170,6 +170,7 @@ SET(CMAKE_DEPEND_INFO_FILES
   "chen_package/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake"
   "chen_package/CMakeFiles/hello.dir/DependInfo.cmake"
   "chen_package/CMakeFiles/pubvel.dir/DependInfo.cmake"
+  "chen_package/CMakeFiles/reverse_cmd_vel.dir/DependInfo.cmake"
   "chen_package/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake"
   "chen_package/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake"
   "chen_package/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake"

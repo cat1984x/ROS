@@ -306,6 +306,19 @@ pubvel/fast:
 .PHONY : pubvel/fast
 
 #=============================================================================
+# Target rules for targets named reverse_cmd_vel
+
+# Build rule for target.
+reverse_cmd_vel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reverse_cmd_vel
+.PHONY : reverse_cmd_vel
+
+# fast build rule for target.
+reverse_cmd_vel/fast:
+	$(MAKE) -f chen_package/CMakeFiles/reverse_cmd_vel.dir/build.make chen_package/CMakeFiles/reverse_cmd_vel.dir/build
+.PHONY : reverse_cmd_vel/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
 
 # Build rule for target.
@@ -538,6 +551,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... hello"
 	@echo "... pubvel"
+	@echo "... reverse_cmd_vel"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_py"
