@@ -220,6 +220,20 @@ pubvel/fast:
 .PHONY : pubvel/fast
 
 # Convenience name for target.
+chen_package/CMakeFiles/pubvel_with_max.dir/rule:
+	cd /home/chenyushen/ros/build && $(MAKE) -f CMakeFiles/Makefile2 chen_package/CMakeFiles/pubvel_with_max.dir/rule
+.PHONY : chen_package/CMakeFiles/pubvel_with_max.dir/rule
+
+# Convenience name for target.
+pubvel_with_max: chen_package/CMakeFiles/pubvel_with_max.dir/rule
+.PHONY : pubvel_with_max
+
+# fast build rule for target.
+pubvel_with_max/fast:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/pubvel_with_max.dir/build.make chen_package/CMakeFiles/pubvel_with_max.dir/build
+.PHONY : pubvel_with_max/fast
+
+# Convenience name for target.
 chen_package/CMakeFiles/reverse_cmd_vel.dir/rule:
 	cd /home/chenyushen/ros/build && $(MAKE) -f CMakeFiles/Makefile2 chen_package/CMakeFiles/reverse_cmd_vel.dir/rule
 .PHONY : chen_package/CMakeFiles/reverse_cmd_vel.dir/rule
@@ -316,6 +330,34 @@ rosgraph_msgs_generate_messages_py: chen_package/CMakeFiles/rosgraph_msgs_genera
 rosgraph_msgs_generate_messages_py/fast:
 	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make chen_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+chen_package/CMakeFiles/set_bg_color.dir/rule:
+	cd /home/chenyushen/ros/build && $(MAKE) -f CMakeFiles/Makefile2 chen_package/CMakeFiles/set_bg_color.dir/rule
+.PHONY : chen_package/CMakeFiles/set_bg_color.dir/rule
+
+# Convenience name for target.
+set_bg_color: chen_package/CMakeFiles/set_bg_color.dir/rule
+.PHONY : set_bg_color
+
+# fast build rule for target.
+set_bg_color/fast:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/set_bg_color.dir/build.make chen_package/CMakeFiles/set_bg_color.dir/build
+.PHONY : set_bg_color/fast
+
+# Convenience name for target.
+chen_package/CMakeFiles/spawn_turtle.dir/rule:
+	cd /home/chenyushen/ros/build && $(MAKE) -f CMakeFiles/Makefile2 chen_package/CMakeFiles/spawn_turtle.dir/rule
+.PHONY : chen_package/CMakeFiles/spawn_turtle.dir/rule
+
+# Convenience name for target.
+spawn_turtle: chen_package/CMakeFiles/spawn_turtle.dir/rule
+.PHONY : spawn_turtle
+
+# fast build rule for target.
+spawn_turtle/fast:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/spawn_turtle.dir/build.make chen_package/CMakeFiles/spawn_turtle.dir/build
+.PHONY : spawn_turtle/fast
 
 # Convenience name for target.
 chen_package/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
@@ -505,6 +547,30 @@ pubvel.cpp.s:
 	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/pubvel.dir/build.make chen_package/CMakeFiles/pubvel.dir/pubvel.cpp.s
 .PHONY : pubvel.cpp.s
 
+pubvel_with_max.o: pubvel_with_max.cpp.o
+.PHONY : pubvel_with_max.o
+
+# target to build an object file
+pubvel_with_max.cpp.o:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/pubvel_with_max.dir/build.make chen_package/CMakeFiles/pubvel_with_max.dir/pubvel_with_max.cpp.o
+.PHONY : pubvel_with_max.cpp.o
+
+pubvel_with_max.i: pubvel_with_max.cpp.i
+.PHONY : pubvel_with_max.i
+
+# target to preprocess a source file
+pubvel_with_max.cpp.i:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/pubvel_with_max.dir/build.make chen_package/CMakeFiles/pubvel_with_max.dir/pubvel_with_max.cpp.i
+.PHONY : pubvel_with_max.cpp.i
+
+pubvel_with_max.s: pubvel_with_max.cpp.s
+.PHONY : pubvel_with_max.s
+
+# target to generate assembly for a file
+pubvel_with_max.cpp.s:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/pubvel_with_max.dir/build.make chen_package/CMakeFiles/pubvel_with_max.dir/pubvel_with_max.cpp.s
+.PHONY : pubvel_with_max.cpp.s
+
 reverse_cmd_vel.o: reverse_cmd_vel.cpp.o
 .PHONY : reverse_cmd_vel.o
 
@@ -528,6 +594,54 @@ reverse_cmd_vel.s: reverse_cmd_vel.cpp.s
 reverse_cmd_vel.cpp.s:
 	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/reverse_cmd_vel.dir/build.make chen_package/CMakeFiles/reverse_cmd_vel.dir/reverse_cmd_vel.cpp.s
 .PHONY : reverse_cmd_vel.cpp.s
+
+set_bg_color.o: set_bg_color.cpp.o
+.PHONY : set_bg_color.o
+
+# target to build an object file
+set_bg_color.cpp.o:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/set_bg_color.dir/build.make chen_package/CMakeFiles/set_bg_color.dir/set_bg_color.cpp.o
+.PHONY : set_bg_color.cpp.o
+
+set_bg_color.i: set_bg_color.cpp.i
+.PHONY : set_bg_color.i
+
+# target to preprocess a source file
+set_bg_color.cpp.i:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/set_bg_color.dir/build.make chen_package/CMakeFiles/set_bg_color.dir/set_bg_color.cpp.i
+.PHONY : set_bg_color.cpp.i
+
+set_bg_color.s: set_bg_color.cpp.s
+.PHONY : set_bg_color.s
+
+# target to generate assembly for a file
+set_bg_color.cpp.s:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/set_bg_color.dir/build.make chen_package/CMakeFiles/set_bg_color.dir/set_bg_color.cpp.s
+.PHONY : set_bg_color.cpp.s
+
+spawn_turtle.o: spawn_turtle.cpp.o
+.PHONY : spawn_turtle.o
+
+# target to build an object file
+spawn_turtle.cpp.o:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/spawn_turtle.dir/build.make chen_package/CMakeFiles/spawn_turtle.dir/spawn_turtle.cpp.o
+.PHONY : spawn_turtle.cpp.o
+
+spawn_turtle.i: spawn_turtle.cpp.i
+.PHONY : spawn_turtle.i
+
+# target to preprocess a source file
+spawn_turtle.cpp.i:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/spawn_turtle.dir/build.make chen_package/CMakeFiles/spawn_turtle.dir/spawn_turtle.cpp.i
+.PHONY : spawn_turtle.cpp.i
+
+spawn_turtle.s: spawn_turtle.cpp.s
+.PHONY : spawn_turtle.s
+
+# target to generate assembly for a file
+spawn_turtle.cpp.s:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/spawn_turtle.dir/build.make chen_package/CMakeFiles/spawn_turtle.dir/spawn_turtle.cpp.s
+.PHONY : spawn_turtle.cpp.s
 
 subpose.o: subpose.cpp.o
 .PHONY : subpose.o
@@ -569,6 +683,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... pubvel"
+	@echo "... pubvel_with_max"
 	@echo "... rebuild_cache"
 	@echo "... reverse_cmd_vel"
 	@echo "... roscpp_generate_messages_cpp"
@@ -577,6 +692,8 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... set_bg_color"
+	@echo "... spawn_turtle"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
@@ -594,9 +711,18 @@ help:
 	@echo "... pubvel.o"
 	@echo "... pubvel.i"
 	@echo "... pubvel.s"
+	@echo "... pubvel_with_max.o"
+	@echo "... pubvel_with_max.i"
+	@echo "... pubvel_with_max.s"
 	@echo "... reverse_cmd_vel.o"
 	@echo "... reverse_cmd_vel.i"
 	@echo "... reverse_cmd_vel.s"
+	@echo "... set_bg_color.o"
+	@echo "... set_bg_color.i"
+	@echo "... set_bg_color.s"
+	@echo "... spawn_turtle.o"
+	@echo "... spawn_turtle.i"
+	@echo "... spawn_turtle.s"
 	@echo "... subpose.o"
 	@echo "... subpose.i"
 	@echo "... subpose.s"

@@ -1,0 +1,11 @@
+<launch>
+	<include 
+		file="$(find chen_package)/triplesim.launch">
+		<!-- give value to included launch file-->
+		<!-- you can't direct give value with cmd line-->
+		<arg 
+			name="use_sim3" 
+			value="1"
+		/>
+	</include>
+</launch>

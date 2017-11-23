@@ -306,6 +306,19 @@ pubvel/fast:
 .PHONY : pubvel/fast
 
 #=============================================================================
+# Target rules for targets named pubvel_with_max
+
+# Build rule for target.
+pubvel_with_max: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pubvel_with_max
+.PHONY : pubvel_with_max
+
+# fast build rule for target.
+pubvel_with_max/fast:
+	$(MAKE) -f chen_package/CMakeFiles/pubvel_with_max.dir/build.make chen_package/CMakeFiles/pubvel_with_max.dir/build
+.PHONY : pubvel_with_max/fast
+
+#=============================================================================
 # Target rules for targets named reverse_cmd_vel
 
 # Build rule for target.
@@ -395,6 +408,32 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 rosgraph_msgs_generate_messages_py/fast:
 	$(MAKE) -f chen_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make chen_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named set_bg_color
+
+# Build rule for target.
+set_bg_color: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 set_bg_color
+.PHONY : set_bg_color
+
+# fast build rule for target.
+set_bg_color/fast:
+	$(MAKE) -f chen_package/CMakeFiles/set_bg_color.dir/build.make chen_package/CMakeFiles/set_bg_color.dir/build
+.PHONY : set_bg_color/fast
+
+#=============================================================================
+# Target rules for targets named spawn_turtle
+
+# Build rule for target.
+spawn_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 spawn_turtle
+.PHONY : spawn_turtle
+
+# fast build rule for target.
+spawn_turtle/fast:
+	$(MAKE) -f chen_package/CMakeFiles/spawn_turtle.dir/build.make chen_package/CMakeFiles/spawn_turtle.dir/build
+.PHONY : spawn_turtle/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_cpp
@@ -551,6 +590,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... hello"
 	@echo "... pubvel"
+	@echo "... pubvel_with_max"
 	@echo "... reverse_cmd_vel"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
@@ -558,6 +598,8 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... set_bg_color"
+	@echo "... spawn_turtle"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"

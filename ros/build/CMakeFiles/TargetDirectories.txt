@@ -8,6 +8,7 @@
 /home/chenyushen/ros/build/gtest/CMakeFiles/gtest_main.dir
 /home/chenyushen/ros/build/chen_package/CMakeFiles/hello.dir
 /home/chenyushen/ros/build/chen_package/CMakeFiles/pubvel.dir
+/home/chenyushen/ros/build/chen_package/CMakeFiles/pubvel_with_max.dir
 /home/chenyushen/ros/build/chen_package/CMakeFiles/reverse_cmd_vel.dir
 /home/chenyushen/ros/build/chen_package/CMakeFiles/roscpp_generate_messages_cpp.dir
 /home/chenyushen/ros/build/chen_package/CMakeFiles/roscpp_generate_messages_lisp.dir
@@ -16,6 +17,8 @@
 /home/chenyushen/ros/build/chen_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 /home/chenyushen/ros/build/chen_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
 /home/chenyushen/ros/build/CMakeFiles/run_tests.dir
+/home/chenyushen/ros/build/chen_package/CMakeFiles/set_bg_color.dir
+/home/chenyushen/ros/build/chen_package/CMakeFiles/spawn_turtle.dir
 /home/chenyushen/ros/build/chen_package/CMakeFiles/std_msgs_generate_messages_cpp.dir
 /home/chenyushen/ros/build/chen_package/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /home/chenyushen/ros/build/chen_package/CMakeFiles/std_msgs_generate_messages_py.dir

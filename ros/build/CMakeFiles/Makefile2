@@ -291,7 +291,10 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 # Convenience name for "all" pass in the directory.
 chen_package/all: chen_package/CMakeFiles/hello.dir/all
 chen_package/all: chen_package/CMakeFiles/pubvel.dir/all
+chen_package/all: chen_package/CMakeFiles/pubvel_with_max.dir/all
 chen_package/all: chen_package/CMakeFiles/reverse_cmd_vel.dir/all
+chen_package/all: chen_package/CMakeFiles/set_bg_color.dir/all
+chen_package/all: chen_package/CMakeFiles/spawn_turtle.dir/all
 chen_package/all: chen_package/CMakeFiles/subpose.dir/all
 .PHONY : chen_package/all
 
@@ -301,6 +304,7 @@ chen_package/clean: chen_package/CMakeFiles/geometry_msgs_generate_messages_lisp
 chen_package/clean: chen_package/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 chen_package/clean: chen_package/CMakeFiles/hello.dir/clean
 chen_package/clean: chen_package/CMakeFiles/pubvel.dir/clean
+chen_package/clean: chen_package/CMakeFiles/pubvel_with_max.dir/clean
 chen_package/clean: chen_package/CMakeFiles/reverse_cmd_vel.dir/clean
 chen_package/clean: chen_package/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 chen_package/clean: chen_package/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
@@ -308,6 +312,8 @@ chen_package/clean: chen_package/CMakeFiles/roscpp_generate_messages_py.dir/clea
 chen_package/clean: chen_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 chen_package/clean: chen_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 chen_package/clean: chen_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+chen_package/clean: chen_package/CMakeFiles/set_bg_color.dir/clean
+chen_package/clean: chen_package/CMakeFiles/spawn_turtle.dir/clean
 chen_package/clean: chen_package/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 chen_package/clean: chen_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 chen_package/clean: chen_package/CMakeFiles/std_msgs_generate_messages_py.dir/clean
@@ -488,13 +494,48 @@ clean: chen_package/CMakeFiles/pubvel.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target chen_package/CMakeFiles/pubvel_with_max.dir
+
+# All Build rule for target.
+chen_package/CMakeFiles/pubvel_with_max.dir/all:
+	$(MAKE) -f chen_package/CMakeFiles/pubvel_with_max.dir/build.make chen_package/CMakeFiles/pubvel_with_max.dir/depend
+	$(MAKE) -f chen_package/CMakeFiles/pubvel_with_max.dir/build.make chen_package/CMakeFiles/pubvel_with_max.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chenyushen/ros/build/CMakeFiles  5
+	@echo "Built target pubvel_with_max"
+.PHONY : chen_package/CMakeFiles/pubvel_with_max.dir/all
+
+# Include target in all.
+all: chen_package/CMakeFiles/pubvel_with_max.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+chen_package/CMakeFiles/pubvel_with_max.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chenyushen/ros/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 chen_package/CMakeFiles/pubvel_with_max.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chenyushen/ros/build/CMakeFiles 0
+.PHONY : chen_package/CMakeFiles/pubvel_with_max.dir/rule
+
+# Convenience name for target.
+pubvel_with_max: chen_package/CMakeFiles/pubvel_with_max.dir/rule
+.PHONY : pubvel_with_max
+
+# clean rule for target.
+chen_package/CMakeFiles/pubvel_with_max.dir/clean:
+	$(MAKE) -f chen_package/CMakeFiles/pubvel_with_max.dir/build.make chen_package/CMakeFiles/pubvel_with_max.dir/clean
+.PHONY : chen_package/CMakeFiles/pubvel_with_max.dir/clean
+
+# clean rule for target.
+clean: chen_package/CMakeFiles/pubvel_with_max.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target chen_package/CMakeFiles/reverse_cmd_vel.dir
 
 # All Build rule for target.
 chen_package/CMakeFiles/reverse_cmd_vel.dir/all:
 	$(MAKE) -f chen_package/CMakeFiles/reverse_cmd_vel.dir/build.make chen_package/CMakeFiles/reverse_cmd_vel.dir/depend
 	$(MAKE) -f chen_package/CMakeFiles/reverse_cmd_vel.dir/build.make chen_package/CMakeFiles/reverse_cmd_vel.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chenyushen/ros/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chenyushen/ros/build/CMakeFiles  6
 	@echo "Built target reverse_cmd_vel"
 .PHONY : chen_package/CMakeFiles/reverse_cmd_vel.dir/all
 
@@ -709,6 +750,76 @@ clean: chen_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target chen_package/CMakeFiles/set_bg_color.dir
+
+# All Build rule for target.
+chen_package/CMakeFiles/set_bg_color.dir/all:
+	$(MAKE) -f chen_package/CMakeFiles/set_bg_color.dir/build.make chen_package/CMakeFiles/set_bg_color.dir/depend
+	$(MAKE) -f chen_package/CMakeFiles/set_bg_color.dir/build.make chen_package/CMakeFiles/set_bg_color.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chenyushen/ros/build/CMakeFiles  7
+	@echo "Built target set_bg_color"
+.PHONY : chen_package/CMakeFiles/set_bg_color.dir/all
+
+# Include target in all.
+all: chen_package/CMakeFiles/set_bg_color.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+chen_package/CMakeFiles/set_bg_color.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chenyushen/ros/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 chen_package/CMakeFiles/set_bg_color.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chenyushen/ros/build/CMakeFiles 0
+.PHONY : chen_package/CMakeFiles/set_bg_color.dir/rule
+
+# Convenience name for target.
+set_bg_color: chen_package/CMakeFiles/set_bg_color.dir/rule
+.PHONY : set_bg_color
+
+# clean rule for target.
+chen_package/CMakeFiles/set_bg_color.dir/clean:
+	$(MAKE) -f chen_package/CMakeFiles/set_bg_color.dir/build.make chen_package/CMakeFiles/set_bg_color.dir/clean
+.PHONY : chen_package/CMakeFiles/set_bg_color.dir/clean
+
+# clean rule for target.
+clean: chen_package/CMakeFiles/set_bg_color.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target chen_package/CMakeFiles/spawn_turtle.dir
+
+# All Build rule for target.
+chen_package/CMakeFiles/spawn_turtle.dir/all:
+	$(MAKE) -f chen_package/CMakeFiles/spawn_turtle.dir/build.make chen_package/CMakeFiles/spawn_turtle.dir/depend
+	$(MAKE) -f chen_package/CMakeFiles/spawn_turtle.dir/build.make chen_package/CMakeFiles/spawn_turtle.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chenyushen/ros/build/CMakeFiles  8
+	@echo "Built target spawn_turtle"
+.PHONY : chen_package/CMakeFiles/spawn_turtle.dir/all
+
+# Include target in all.
+all: chen_package/CMakeFiles/spawn_turtle.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+chen_package/CMakeFiles/spawn_turtle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chenyushen/ros/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 chen_package/CMakeFiles/spawn_turtle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chenyushen/ros/build/CMakeFiles 0
+.PHONY : chen_package/CMakeFiles/spawn_turtle.dir/rule
+
+# Convenience name for target.
+spawn_turtle: chen_package/CMakeFiles/spawn_turtle.dir/rule
+.PHONY : spawn_turtle
+
+# clean rule for target.
+chen_package/CMakeFiles/spawn_turtle.dir/clean:
+	$(MAKE) -f chen_package/CMakeFiles/spawn_turtle.dir/build.make chen_package/CMakeFiles/spawn_turtle.dir/clean
+.PHONY : chen_package/CMakeFiles/spawn_turtle.dir/clean
+
+# clean rule for target.
+clean: chen_package/CMakeFiles/spawn_turtle.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target chen_package/CMakeFiles/std_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
@@ -901,7 +1012,7 @@ clean: chen_package/CMakeFiles/std_srvs_generate_messages_py.dir/clean
 chen_package/CMakeFiles/subpose.dir/all:
 	$(MAKE) -f chen_package/CMakeFiles/subpose.dir/build.make chen_package/CMakeFiles/subpose.dir/depend
 	$(MAKE) -f chen_package/CMakeFiles/subpose.dir/build.make chen_package/CMakeFiles/subpose.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chenyushen/ros/build/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chenyushen/ros/build/CMakeFiles  9
 	@echo "Built target subpose"
 .PHONY : chen_package/CMakeFiles/subpose.dir/all
 
