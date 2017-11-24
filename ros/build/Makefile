@@ -306,6 +306,19 @@ pubvel/fast:
 .PHONY : pubvel/fast
 
 #=============================================================================
+# Target rules for targets named pubvel_toggle
+
+# Build rule for target.
+pubvel_toggle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pubvel_toggle
+.PHONY : pubvel_toggle
+
+# fast build rule for target.
+pubvel_toggle/fast:
+	$(MAKE) -f chen_package/CMakeFiles/pubvel_toggle.dir/build.make chen_package/CMakeFiles/pubvel_toggle.dir/build
+.PHONY : pubvel_toggle/fast
+
+#=============================================================================
 # Target rules for targets named pubvel_with_max
 
 # Build rule for target.
@@ -590,6 +603,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... hello"
 	@echo "... pubvel"
+	@echo "... pubvel_toggle"
 	@echo "... pubvel_with_max"
 	@echo "... reverse_cmd_vel"
 	@echo "... roscpp_generate_messages_cpp"

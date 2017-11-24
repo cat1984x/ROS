@@ -138,6 +138,8 @@ add_executable(reverse_cmd_vel reverse_cmd_vel.cpp)
 add_executable(set_bg_color set_bg_color.cpp)
 add_executable(pubvel_with_max pubvel_with_max.cpp)
 add_executable(spawn_turtle spawn_turtle.cpp)
+add_executable(pubvel_toggle pubvel_toggle.cpp)
+
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -160,6 +162,7 @@ target_link_libraries(reverse_cmd_vel ${catkin_LIBRARIES})
 target_link_libraries(set_bg_color ${catkin_LIBRARIES})
 target_link_libraries(pubvel_with_max ${catkin_LIBRARIES})
 target_link_libraries(spawn_turtle ${catkin_LIBRARIES})
+target_link_libraries(pubvel_toggle ${catkin_LIBRARIES})
 
 
 #############

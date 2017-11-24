@@ -220,6 +220,20 @@ pubvel/fast:
 .PHONY : pubvel/fast
 
 # Convenience name for target.
+chen_package/CMakeFiles/pubvel_toggle.dir/rule:
+	cd /home/chenyushen/ros/build && $(MAKE) -f CMakeFiles/Makefile2 chen_package/CMakeFiles/pubvel_toggle.dir/rule
+.PHONY : chen_package/CMakeFiles/pubvel_toggle.dir/rule
+
+# Convenience name for target.
+pubvel_toggle: chen_package/CMakeFiles/pubvel_toggle.dir/rule
+.PHONY : pubvel_toggle
+
+# fast build rule for target.
+pubvel_toggle/fast:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/pubvel_toggle.dir/build.make chen_package/CMakeFiles/pubvel_toggle.dir/build
+.PHONY : pubvel_toggle/fast
+
+# Convenience name for target.
 chen_package/CMakeFiles/pubvel_with_max.dir/rule:
 	cd /home/chenyushen/ros/build && $(MAKE) -f CMakeFiles/Makefile2 chen_package/CMakeFiles/pubvel_with_max.dir/rule
 .PHONY : chen_package/CMakeFiles/pubvel_with_max.dir/rule
@@ -547,6 +561,30 @@ pubvel.cpp.s:
 	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/pubvel.dir/build.make chen_package/CMakeFiles/pubvel.dir/pubvel.cpp.s
 .PHONY : pubvel.cpp.s
 
+pubvel_toggle.o: pubvel_toggle.cpp.o
+.PHONY : pubvel_toggle.o
+
+# target to build an object file
+pubvel_toggle.cpp.o:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/pubvel_toggle.dir/build.make chen_package/CMakeFiles/pubvel_toggle.dir/pubvel_toggle.cpp.o
+.PHONY : pubvel_toggle.cpp.o
+
+pubvel_toggle.i: pubvel_toggle.cpp.i
+.PHONY : pubvel_toggle.i
+
+# target to preprocess a source file
+pubvel_toggle.cpp.i:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/pubvel_toggle.dir/build.make chen_package/CMakeFiles/pubvel_toggle.dir/pubvel_toggle.cpp.i
+.PHONY : pubvel_toggle.cpp.i
+
+pubvel_toggle.s: pubvel_toggle.cpp.s
+.PHONY : pubvel_toggle.s
+
+# target to generate assembly for a file
+pubvel_toggle.cpp.s:
+	cd /home/chenyushen/ros/build && $(MAKE) -f chen_package/CMakeFiles/pubvel_toggle.dir/build.make chen_package/CMakeFiles/pubvel_toggle.dir/pubvel_toggle.cpp.s
+.PHONY : pubvel_toggle.cpp.s
+
 pubvel_with_max.o: pubvel_with_max.cpp.o
 .PHONY : pubvel_with_max.o
 
@@ -683,6 +721,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... pubvel"
+	@echo "... pubvel_toggle"
 	@echo "... pubvel_with_max"
 	@echo "... rebuild_cache"
 	@echo "... reverse_cmd_vel"
@@ -711,6 +750,9 @@ help:
 	@echo "... pubvel.o"
 	@echo "... pubvel.i"
 	@echo "... pubvel.s"
+	@echo "... pubvel_toggle.o"
+	@echo "... pubvel_toggle.i"
+	@echo "... pubvel_toggle.s"
 	@echo "... pubvel_with_max.o"
 	@echo "... pubvel_with_max.i"
 	@echo "... pubvel_with_max.s"
